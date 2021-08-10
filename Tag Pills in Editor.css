@@ -1,3 +1,13 @@
+/* INSTRUCTIONS FOR THE CSS UNINITIATED
+
+You need to change "custom1" for the tag you want coloured, and add the colour. You'll need to do this in 3 places: 
+under "Custom Tag Colors in Edit Mode";
+under "No color background for custom tags when in the active line";
+under "Custom Tag Colours".
+ENJOY! :)
+*/
+
+
 /* Tags in Edit Mode */
 
 div:not(.CodeMirror-activeline) > .CodeMirror-line span.cm-hashtag-end {
