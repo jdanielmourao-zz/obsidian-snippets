@@ -4,7 +4,7 @@ This is a repository of css snippets I've made or adapted.
 
 ## Tag Pills in Editor
 
-
+https://github.com/jdanielmourao/obsidian-snippets/blob/main/Tag%20Pills%20in%20Editor.css
 
 Works for Obsidian v0.12.12
 Code adapted from @rsdimitrov and @uzerper (Jul 2020) on the obsidian forums
