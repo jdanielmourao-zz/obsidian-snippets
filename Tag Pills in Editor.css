@@ -14,7 +14,7 @@ div:not(.CodeMirror-activeline) > .CodeMirror-line span.cm-hashtag-end {
     margin: 0rem 0rem;
     cursor: text;
     border-radius: 10px; 
-    transition: cubic-bezier(0.4, 0.14, 1, 1) 200ms;
+    transition: ease-in 200ms;
 }
   
 /* Custom Tag Colours in Edit Mode */
@@ -24,22 +24,6 @@ div:not(.CodeMirror-activeline) .CodeMirror-line span.cm-tag {
 div:not(.CodeMirror-activeline) .CodeMirror-line span.cm-tag-custom1 {
     background-color: #F2404F;
     font-size: .875rem;
-    text-decoration: none;}
-div:not(.CodeMirror-activeline) .CodeMirror-line span.cm-tag-custom2 {
-    background-color: #F4B266;
-    font-size: .875rem;
-    text-decoration: none;}
-div:not(.CodeMirror-activeline) .CodeMirror-line span.cm-tag-custom3 {
-    background-color: #799D6C;
-    font-size: .875rem;
-    text-decoration: none;}
-div:not(.CodeMirror-activeline) .CodeMirror-line span.cm-tag-custom4 {
-    background-color: #40798C;
-    font-size: .875rem;
-    text-decoration: none;}
-div:not(.CodeMirror-activeline) .CodeMirror-line span.cm-tag-custom5 {
-    background-color: #a255b9;
-    font-size: .875rem;
     text-decoration: none;
 }
 
@@ -47,26 +31,6 @@ div:not(.CodeMirror-activeline) .CodeMirror-line span.cm-tag-custom5 {
 /* No colour background for custom tags when in the active line */
   
 .CodeMirror-activeline > .CodeMirror-line span.cm-tag-custom1 {
-    background-color: transparent !important;
-    color: var(--text-normal) !important;
-    font-size: 1em!important; 
-    font-weight: 300;}
-.CodeMirror-activeline > .CodeMirror-line span.cm-tag-custom2 {
-    background-color: transparent !important;
-    color: var(--text-normal) !important;
-    font-size: 1em!important; 
-    font-weight: 300;}
-.CodeMirror-activeline > .CodeMirror-line span.cm-tag-custom3 {
-    background-color: transparent !important;
-    color: var(--text-normal) !important;
-    font-size: 1em!important; 
-    font-weight: 300;}
-.CodeMirror-activeline > .CodeMirror-line span.cm-tag-custom4 {
-    background-color: transparent !important;
-    color: var(--text-normal) !important;
-    font-size: 1em!important; 
-    font-weight: 300;}
-.CodeMirror-activeline > .CodeMirror-line span.cm-tag-custom5 {
     background-color: transparent !important;
     color: var(--text-normal) !important;
     font-size: 1em!important; 
@@ -98,8 +62,7 @@ div:not(.CodeMirror-activeline) .CodeMirror-line span.cm-tag-custom5 {
     border-radius: 10px;
     opacity: 85%;
     mix-blend-mode: lighten;
-    transition: cubic-bezier(0.4, 0.14, 1, 1) 200ms;
-  
+    transition: ease-in 200ms;
 }
 
 .tag:not(.token):hover {
@@ -110,17 +73,9 @@ div:not(.CodeMirror-activeline) .CodeMirror-line span.cm-tag-custom5 {
   
 /* Custom Tag Colours */
 .tag[href^="#custom1"] {
-    background-color: #F2404F ;}
-.tag[href^="#custom2"] {
-    background-color: #F4B266 ;}
-.tag[href^="#custom3"] {
-    background-color: #799D6C ;}
-.tag[href^="#custom4"] {
-    background-color: #40798C ;}
-.tag[href^="#custom5"] {
-    background-color: #a255b9 ;}
+    background-color: #F2404F;
+}
 
-  
   
 /* Adds hashtag behind the text */
 
