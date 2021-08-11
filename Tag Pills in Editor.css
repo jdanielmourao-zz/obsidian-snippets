@@ -98,3 +98,8 @@ div:not(.CodeMirror-activeline) > .CodeMirror-line span.cm-hashtag-end:before {
 div:not(.CodeMirror-activeline) > .CodeMirror-line span.cm-hashtag-begin {
     display: none;
 }
+
+/* Frontmatter pills */
+.frontmatter-container .tag:hover {
+    background-color: var(--text-faint);
+}
