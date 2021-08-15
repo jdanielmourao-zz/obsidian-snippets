@@ -16,5 +16,5 @@ This is a repository of css snippets I've made or adapted.
 ![VIVUmZHBM9](https://user-images.githubusercontent.com/81718890/129098657-a06af826-6b8e-4ff3-a13f-b7cb7a125e40.gif)
 
 
-<a href="https://www.buymeacoffee.com/jdanielmourao"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a matcha&emoji=🍵&slug=jdanielmourao&button_colour=bbe785&font_colour=000000&font_family=Inter&outline_colour=000000&coffee_colour=FFDD00"></a>
+
 
