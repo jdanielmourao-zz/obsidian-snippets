@@ -8,7 +8,7 @@ This is a repository of css snippets I've made or adapted.
 
 ---
 
-<small>Code adapted from @rsdimitrov and @uzerper (Jul 2020) on the [Obsidian Forums](https://forum.obsidian.md/t/meta-post-common-css-hacks/1978/64?u=jdanielmourao)</small>
+<small>Code adapted from the [Obsidian Forums](https://forum.obsidian.md/t/meta-post-common-css-hacks/1978/64?u=jdanielmourao)</small>
 
 
 ![GHAeXogahB](https://user-images.githubusercontent.com/81718890/128909551-28963bb9-3d34-4dfc-b955-0278da22e4f7.gif)
